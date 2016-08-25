@@ -1,0 +1,5 @@
+textile
+textlet
+textman
+textual
+texture

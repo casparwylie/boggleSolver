@@ -1,0 +1,4 @@
+opsimathy
+opsisform
+opsistype
+opsonogen

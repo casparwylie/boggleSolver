@@ -1,0 +1,4 @@
+eureka
+eurite
+Europa
+euryon

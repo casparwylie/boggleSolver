@@ -1,0 +1,4 @@
+hexad
+hexer
+hexis
+hexyl

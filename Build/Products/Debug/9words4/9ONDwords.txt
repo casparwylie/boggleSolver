@@ -1,0 +1,6 @@
+ondagraph
+ondameter
+ondascope
+ondograph
+ondometer
+ondoscope

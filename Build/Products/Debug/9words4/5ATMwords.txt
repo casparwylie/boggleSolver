@@ -1,0 +1,3 @@
+atman
+atmid
+atmos

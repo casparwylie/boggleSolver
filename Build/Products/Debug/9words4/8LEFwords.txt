@@ -1,0 +1,4 @@
+leftmost
+leftness
+leftover
+leftward
