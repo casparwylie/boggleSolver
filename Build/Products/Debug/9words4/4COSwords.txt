@@ -1,4 +1,0 @@
-cosh
-coss
-cost
-cosy

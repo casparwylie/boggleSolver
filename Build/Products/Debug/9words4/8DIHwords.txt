@@ -1,6 +1,0 @@
-dihalide
-dihedral
-dihedron
-dihybrid
-dihydric
-dihydrol

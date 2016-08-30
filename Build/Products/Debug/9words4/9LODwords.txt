@@ -1,5 +1,0 @@
-lodestone
-lodestuff
-lodgeable
-lodgepole
-lodgerdom

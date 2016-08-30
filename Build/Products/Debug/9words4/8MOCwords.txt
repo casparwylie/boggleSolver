@@ -1,4 +1,0 @@
-moccasin
-mockable
-mockbird
-mocomoco

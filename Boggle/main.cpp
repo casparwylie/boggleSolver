@@ -76,52 +76,19 @@ int main(int argc, const char * argv[]) {
     
     vector< vector<string> > letters(4,vector<string>(4));
     
-    string row1;
-    string row2;
-    string row3;
-    string row4;
-    
-    cout << "enter row 1, with spaces: ";
-    getline(cin,row1, '\n');
-    cout << "enter row 2, with spaces: ";
-    getline(cin,row2, '\n');
-    cout << "enter row 3, with spaces: ";
-    getline(cin,row3, '\n');
-    cout << "enter row 4, with spaces: ";
-    getline(cin,row4, '\n');
-    
-    cout << "----" << endl;
-    
-    istringstream iss1(row1, istringstream::in);
-    int lcount1 = 0;
-    string chars1;
-    while(iss1 >> chars1){
-        letters[0][lcount1] = chars1;
-        lcount1++;
-    }
-    
-    istringstream iss2(row2, istringstream::in);
-    int lcount2 = 0;
-    string chars2;
-    while(iss2 >> chars2){
-        letters[1][lcount2] = chars2;
-        lcount2++;
-    }
-    
-    istringstream iss3(row3, istringstream::in);
-    int lcount3 = 0;
-    string chars3;
-    while(iss3 >> chars3){
-        letters[2][lcount3] = chars3;
-        lcount3++;
-    }
-    
-    istringstream iss4(row4, istringstream::in);
-    int lcount4 = 0;
-    string chars4;
-    while(iss4 >> chars4){
-        letters[3][lcount4] = chars4;
-        lcount4++;
+    for(int i = 0;i<4;i++){
+        string row;
+        string outputText ="enter row " + to_string(i+1) + ", with spaces: ";
+        cout << outputText;
+        getline(cin,row, '\n');
+        istringstream iss(row, istringstream::in);
+        int count = 0;
+        string chars;
+        while(iss >> chars){
+            letters[i][count] = chars;
+            count++;
+        }
+
     }
     
     cout << "-----" << endl;
